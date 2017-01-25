@@ -12,8 +12,8 @@ declare -r VERSION="1.01"
 usage() {
 cat <<EOM
 
-Hactar - An incremental daily backup script using rsync
-Copyright (c)2015 by Florian Beer <fb@42dev.eu>
+backup-my-files - An incremental daily backup script using rsync
+Copyright (c)2016 smazumder <smtechnocrat@gmail.com>
 Version $VERSION
 
 This script comes with ABSOLUTELY NO WARRANTY.
@@ -33,7 +33,7 @@ Options
  -V			show version number
 
 Example
- hactar -v -e my_exludes / /backup/
+ backup-my-files -v -e my_exludes / /backup/
 
 EOM
 }
